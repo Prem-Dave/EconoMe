@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BudgetApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <style name="bottomSheetStyle">
+        <item name="android:windowEnterAnimation">@anim/bottom_sheet_open</item>
+        <item name="android:windowExitAnimation">@anim/bottom_sheet_close</item>
+    </style>
+
+</resources>
